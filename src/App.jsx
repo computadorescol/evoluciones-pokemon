@@ -22,10 +22,11 @@ function App() {
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
+          <p>Bienvenido a React !</p>
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more..Yeahh..!
+        Click on the Vite and React logos to learn more 1 ..Yeahh..!
       </p>
     </div>
   )
