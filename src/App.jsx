@@ -23,6 +23,7 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
           <p>Bienvenido a React !</p>
+          <p>congratulations for  React !</p>
         </p>
       </div>
       <p className="read-the-docs">
