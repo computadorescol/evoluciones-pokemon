@@ -25,6 +25,7 @@ function App() {
           <p>Bienvenido a React !</p>
           <p>congratulations for  React !</p>
           <p>Iniciamos tutorial de React !</p>
+          <p>primer course </p>
         </p>
       </div>
       <p className="read-the-docs">
