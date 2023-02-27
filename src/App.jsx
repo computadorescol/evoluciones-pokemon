@@ -4,9 +4,9 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(11)
-console.log(count)
+
 function increaseNumber(){
-      setCount(count + 1)
+      setCount(count +1 )
       console.log(count)                
 }
   return (
@@ -21,7 +21,7 @@ function increaseNumber(){
       </div>
       <h1>Vite + React is carlos julio</h1>
       <div className="card">
-        <button onClick={() => increaseNumber((count) => count + 1)}>
+        <button onClick={increaseNumber}>
           count is     {count}<br/>
           la cuenta es {count}
         </button>
