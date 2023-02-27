@@ -5,6 +5,10 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(11)
 console.log(count)
+function increaseNumber(){
+      setCount(count + 1)
+      console.log(count)                
+}
   return (
     <div className="App">
       <div>
@@ -17,16 +21,17 @@ console.log(count)
       </div>
       <h1>Vite + React is carlos julio</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => increaseNumber((count) => count + 1)}>
+          count is     {count}<br/>
+          la cuenta es {count}
         </button>
-        <p>
+        <>
           Edit <code>src/App.jsx</code> and save to test HMR
-          <p>Bienvenido a React !</p>
-          <p>Congratulations for  React !</p>
-          <p>Iniciamos tutorial de React !</p>
-          <p>Primer course </p>
-        </p>
+          <h4>Bienvenido a React !</h4>
+          <h4>Congratulations for  React !</h4>
+          <h4>Iniciamos tutorial de React !</h4>
+          <h4>Primer course </h4>
+        </>
       </div>
       
       <p className="read-the-docs">
