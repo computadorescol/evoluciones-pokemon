@@ -25,7 +25,7 @@ console.log(count)
           <p>Bienvenido a React !</p>
           <p>Congratulations for  React !</p>
           <p>Iniciamos tutorial de React !</p>
-          <p>primer course </p>
+          <p>Primer course </p>
         </p>
       </div>
       
