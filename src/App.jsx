@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(11)
-
+console.log(count)
   return (
     <div className="App">
       <div>
@@ -23,13 +23,14 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
           <p>Bienvenido a React !</p>
-          <p>congratulations for  React !</p>
+          <p>Congratulations for  React !</p>
           <p>Iniciamos tutorial de React !</p>
           <p>primer course </p>
         </p>
       </div>
+      
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more 1 ..Yeahh..!
+        Click on the Vite and React logos to learn more 
       </p>
     </div>
   )
