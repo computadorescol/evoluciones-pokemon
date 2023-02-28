@@ -1,13 +1,13 @@
-import {Button} from './components/Button'
 
+import {Button} from "./components/Button"
 
-const App= ()=> {
+function App() {
 
-    return  (
-        <>
-        <Button text ='anterior'  />
-          <Button text ='proximo'/>
-        </ >)
+  return (
+    <>
+      <Button text='anterior' />
+      <Button text='proximo' />
+    </>)
 
-     }
+}
 export  {App}

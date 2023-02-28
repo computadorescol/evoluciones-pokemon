@@ -1,9 +1,10 @@
-
+import React from "react";
+   import    "../sass/Button.scss";
 
 const Button = (props) => {
   return (
    
-      <button>{props.text}</ button >
+      <button className="btn">{props.text}</ button >
    
   )
 }
