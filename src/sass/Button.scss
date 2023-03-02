@@ -1,7 +1,13 @@
 
 
 
-.btn {
+.button {
     background-color :red ;
+    &__box{
+        border : 1px solid red ;
+    }
 }
+
+
+
 
