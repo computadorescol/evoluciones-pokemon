@@ -1,12 +1,15 @@
-
-
+@use 'variables' as v;
 
 .button {
-    background-color :red ;
+    background-color :v.$color1 ;
     height	:  60px ;
 		width    :  60px ;
 		border-radius  : 50% ;
-		
+    
+		cursor: pointer ; 
+    
+    
+    
     &__box{
         border : 1px solid red ;
     }
