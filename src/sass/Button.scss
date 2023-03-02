@@ -3,6 +3,10 @@
 
 .button {
     background-color :red ;
+    height	:  60px ;
+		width    :  60px ;
+		border-radius  : 50% ;
+		
     &__box{
         border : 1px solid red ;
     }
