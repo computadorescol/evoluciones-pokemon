@@ -1,13 +1,17 @@
 
-import {Button} from "./components/Button"
+import {Button} from "./components/Button";
+import './sass/App.scss'
 
 function App() {
 
   return (
     <> 
     {/*las tarjetas van aqui*/}
-      <Button text='anterior' />
-      <Button text='proximo' />
+    <div className= "buttons-container">
+    <Button text='anterior' />
+     <Button text='proximo' />
+    </div>
+      
     </>)
 
 }
