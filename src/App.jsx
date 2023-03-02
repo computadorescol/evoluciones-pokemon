@@ -1,6 +1,9 @@
 
-import {Button} from "./components/Button";
-import './sass/App.scss'
+import {Button} from "./components/Button"
+import './sass/App.scss';
+import { TiArrowLeftOutline } from "react-icons/ti";
+
+
 
 function App() {
 
@@ -8,11 +11,14 @@ function App() {
     <> 
     {/*las tarjetas van aqui*/}
     <div className= "buttons-container">
-    <Button text='anterior' />
-     <Button text='proximo' />
-    </div>
       
-    </>)
-
+    <Button text ='anterior' />
+    
+    
+     <Button text ='siguiente' />
+     
+    </div>
+    </>
+  )
 }
 export  {App}
