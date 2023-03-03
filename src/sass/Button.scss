@@ -9,11 +9,16 @@
 		cursor: pointer ; 
     color: white; 
     font-size : 18px ;
-    
+    color : yellow;
     
     
     &__box{
         border : 1px solid red ;
+    }
+    &__shadow {
+      height 	:  60px ;
+		   width		:  60px ;     
+		background-color :  v.$color2 ;
     }
 }
 

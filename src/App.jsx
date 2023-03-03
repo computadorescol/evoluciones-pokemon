@@ -14,10 +14,10 @@ function App() {
     {/*las tarjetas van aqui*/}
     <div className= "buttons-container">
       
-    <Button text ={< TiArrowLeftOutline/>} />
+    <Button icon ={< TiArrowLeftOutline/>} />
     
     
-     <Button text ={< TiArrowRightOutline/>} />
+     <Button icon ={< TiArrowRightOutline/>} />
      
     </div>
     </>
