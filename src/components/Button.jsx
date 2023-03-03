@@ -6,7 +6,7 @@ const Button = ({icon}) => {
     <div className='button__box'>
       <>
       <button className="button">{icon}</button >
-      <div className="button_shadow">  </ div>
+      <div className="button__shadow"></ div>
       </>
     </div>
      
