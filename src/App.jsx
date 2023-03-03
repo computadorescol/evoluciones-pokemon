@@ -14,10 +14,11 @@ function App() {
     {/*las tarjetas van aqui*/}
     <div className= "buttons-container">
       
-    <Button icon ={< TiArrowLeftOutline/>} />
+    <Button 
+     icon ={< TiArrowLeftOutline/>} handleClick={()=>{console.log('anterior')}} />
     
     
-     <Button icon ={< TiArrowRightOutline/>} />
+     <Button icon ={< TiArrowRightOutline/>} handleClick={()=>{console.log('siguiente')}} />
      
     </div>
     </>
