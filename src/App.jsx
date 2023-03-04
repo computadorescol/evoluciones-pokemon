@@ -1,5 +1,7 @@
-
+//components
 import {Button} from "./components/Button"
+import { Card }  from "./components/Card"
+//styles
 import './sass/App.scss';
 import { TiArrowLeftOutline} from "react-icons/ti";
 import { TiArrowRightOutline} from "react-icons/ti";
