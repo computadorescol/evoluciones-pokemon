@@ -9,6 +9,15 @@ import { useState } from "react";
 
 const App =()=> {
   const  [pokemonId, setPokemonId] = useState(1);
+  
+  function prevClick () {
+    (pokemonId == 1 ) ?  
+                  setPokemonId(1) :
+     setPokemonId(pokemonId-1 )
+      }
+ function nextClick () { 
+     setPokemonId(pokemonId+1 )
+      }
   return (
     <> 
     {/*las tarjetas van aqui*/}
@@ -16,15 +25,12 @@ const App =()=> {
       
     <Button 
      icon ={< TiArrowLeftOutline/>} 
-     handleClick={()=>{if (pokemonId == 1 ) { 
-      setPokemonId(1)
- }  else {
-   setPokemonId(pokemonId -1)	} }} />
+     handleClick={prevClick } />
     
     {pokemonId}
     
      <Button icon ={< TiArrowRightOutline/>}
-      handleClick={()=>{setPokemonId(pokemonId + 1 )}} />
+      handleClick={nextClick } />
      
     </div>
     </>
