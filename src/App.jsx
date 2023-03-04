@@ -8,7 +8,7 @@ import { useState } from "react";
 
 
 const App =()=> {
-  const  [  pokemonId, setPokemonId ] = useState(1)
+  const  [pokemonId, setPokemonId] = useState(1);
   return (
     <> 
     {/*las tarjetas van aqui*/}
@@ -16,10 +16,11 @@ const App =()=> {
       
     <Button 
      icon ={< TiArrowLeftOutline/>} 
-     handleClick={()=>{setPokemonId, (pokemonId -1 )}} />
+     handleClick={()=>{setPokemonId(pokemonId -1 )}} />
     {pokemonId}
     
-     <Button icon ={< TiArrowRightOutline/>} handleClick={()=>{setPokemonId, (pokemonId + 1 )}} />
+     <Button icon ={< TiArrowRightOutline/>}
+      handleClick={()=>{setPokemonId(pokemonId + 1 )}} />
      
     </div>
     </>
