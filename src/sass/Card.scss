@@ -20,6 +20,19 @@
         right  : 0 ; 
 		padding : 6px  12 px ;
 }
-
+&__circle{
+    background-color  : v.$color4;
+    height : 100px ;
+width :   120px ; 
+border-radius : 50%  ;
+position : absolute ;  
+top : 50px;
+left :24px ;
+z-index : 1;
+}
+&__img{
+    position  : absolute ;
+    z-index : 1 ;   
+}
 }
 
