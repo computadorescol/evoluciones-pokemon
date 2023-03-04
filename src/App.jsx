@@ -1,10 +1,11 @@
 //components
 import {Button} from "./components/Button"
-import { Card }  from "./components/Card"
+import  {Card}  from "./components/Card"
 //styles
 import './sass/App.scss';
 import { TiArrowLeftOutline} from "react-icons/ti";
 import { TiArrowRightOutline} from "react-icons/ti";
+//hooks
 import { useState } from "react";
 
 
@@ -23,6 +24,9 @@ const App =()=> {
   return (
     <> 
     {/*las tarjetas van aqui*/}
+      <div className="card-container">
+    <Card />
+      </div>
     <div className= "buttons-container">
       
     <Button 
