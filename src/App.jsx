@@ -16,7 +16,11 @@ const App =()=> {
       
     <Button 
      icon ={< TiArrowLeftOutline/>} 
-     handleClick={()=>{setPokemonId(pokemonId -1 )}} />
+     handleClick={()=>{if (pokemonId == 1 ) { 
+      setPokemonId(1)
+ }  else {
+   setPokemonId(pokemonId -1)	} }} />
+    
     {pokemonId}
     
      <Button icon ={< TiArrowRightOutline/>}
